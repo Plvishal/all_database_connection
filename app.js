@@ -5,6 +5,6 @@ import userRouter from './routes/user.routes.js';
 
 const app = express();
 
-app.use('/api', userRouter);
+app.use('/connection', userRouter);
 
 export default app;
